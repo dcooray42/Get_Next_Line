@@ -13,7 +13,7 @@ Ces instructions vous aideront à avoir une copie du projet et de pouvoir le fai
 
 **Attention: A partir de maintenant, toutes les étapes (téléchargement, installation/compilation, exécution) seront à effectuer sur un terminal.**
 
-#### Systeme d'exploitation
+#### Système d'exploitation
 
 ```
 GNU/Linux, Mac OS X ou macOS Sierra
@@ -67,8 +67,8 @@ make -C libft re
 
 ## Faire des tests
 
-Aucun test n'est fourni avec ce projet. Toutefois vous pouvez crée un binaire avec vos propres fichiers sources et la 
-librairie précédemment créer.
+Aucun test n'est fourni avec ce projet. Toutefois vous pouvez créé un binaire avec vos propres fichiers sources et la 
+librairie précédemment créé.
 
 ### Compilation avec le fichier get_next_line.c
 
