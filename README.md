@@ -1,7 +1,9 @@
 # Get_Next_Line
 
 Troisième et dernier projet générique de l'école 42. Tous les projets qui suivront seront repartis, pour la plupart, 
-dans 4 grandes branches : UNIX/Sécurité, Algorithmie, Graphique et Web. Get_Next_Line est un projet qui consiste a crée 
+dans 4 grandes branches : UNIX/Sécurité, Algorithmie, Graphique et Web.
+
+Get_Next_Line est un projet qui consiste a crée 
 une fonction qui va parcourir un fichier et retourner une seule ligne via l'adresse du char * passé en paramètre de fonction. Tant que la fonction n'est pas arrivé à la fin du fichier, la fonction retournera 1. Si elle arrive à la fin du fichier, elle retournera 0. Et si elle a rencontré une erreur, alors elle retournera -1.
 
 ## Pour commencer
