@@ -80,7 +80,7 @@ int	main(int argc, char **argv)
 {
 	int	fd;
 	char	*str = NULL;
-	
+
 	if (argc == 2)
 	{
 		if ((fd = open(argv[1], O_RDONLY)) == -1)
