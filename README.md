@@ -94,7 +94,7 @@ int	main(int argc, char **argv)
 			return (0);
 	}
 	else
-		printf("More than one parameter\n");
+		printf("More or less than one parameter\n");
 	return (0);
 }
 ```
