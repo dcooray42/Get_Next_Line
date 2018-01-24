@@ -78,7 +78,7 @@ gcc -Wall -Werror -Wextra -I [PATH du dossier cloné] -I [PATH du dossier cloné
 
 int	main(int argc, char **argv)
 {
-	int		fd;
+	int	fd;
 	char	*str = NULL;
 	
 	if (argc == 2)
