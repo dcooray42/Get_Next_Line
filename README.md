@@ -3,14 +3,15 @@
 Troisième et dernier projet générique de l'école 42. Tous les projets qui suivront seront repartis, pour la plupart, 
 dans 4 grandes branches : UNIX/Sécurité, Algorithmie, Graphique et Web.
 
-Get_Next_Line est un projet qui consiste a crée 
-une fonction qui va parcourir un fichier et retourner une seule ligne via l'adresse du char * passé en paramètre de fonction. Tant que la fonction n'est pas arrivé à la fin du fichier, la fonction retournera 1. Si elle arrive à la fin du fichier, elle retournera 0. Et si elle a rencontré une erreur, alors elle retournera -1.
+Get_Next_Line est un projet qui consiste à créer une fonction qui va parcourir un fichier et retourner une seule ligne via l'adresse du char * passé en paramètre de fonction. Tant que la fonction n'est pas arrivée à la fin du fichier, la fonction retournera 1. Si elle arrive à la fin du fichier, elle retournera 0. Et si elle a rencontré une erreur, alors elle retournera -1.
 
 ## Pour commencer
 
-Ces instructions vous aiderons a avoir une copie du projet et de pouvoir le faire marcher sur votre ordinateur.
+Ces instructions vous aideront à avoir une copie du projet et de pouvoir le faire marcher sur votre ordinateur.
 
 ### Prérequis
+
+**Attention: A partir de maintenant, toutes les étapes (téléchargement, installation/compilation, exécution) seront à effectuer sur un terminal.**
 
 #### Systeme d'exploitation
 
@@ -66,12 +67,12 @@ make -C libft re
 
 ## Faire des tests
 
-Aucun test n'est fournis avec ce projet. Toutefois vous pouvez crée un binaire avec vos propres fichiers sources et la 
+Aucun test n'est fourni avec ce projet. Toutefois vous pouvez crée un binaire avec vos propres fichiers sources et la 
 librairie précédemment créer.
 
 ### Compilation avec le fichier get_next_line.c
 
-Amenager vos fichiers sources et headers dans un dossier unique de tel sorte à ce que la commande suivante fonctionne
+Aménager vos fichiers sources et headers dans un dossier unique de tel sorte à ce que la commande suivante fonctionne
 
 ```
 gcc -Wall -Werror -Wextra -I [PATH du dossier cloné] -I [PATH du dossier cloné/libft/includes] -L [PATH du dossier cloné/libft] -lft *.c -o [nom de votre binaire]
