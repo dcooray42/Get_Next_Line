@@ -115,4 +115,4 @@ int	main(int argc, char **argv)
 
 ## Auteur
 
-* **Dimitri Cooray** - [Lien vers github](https://github.com/konamifox)
+* **Dimitri Cooray** - [Lien vers github](https://github.com/dcooray42)
